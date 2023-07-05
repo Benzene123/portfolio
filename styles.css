@@ -545,9 +545,20 @@ input, textarea {
     color: var(--color-grey0);
     resize: none;
     border-radius: 15px;
+    border: 0;
 }
 
+.submit-btn {
+    width: 50%;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 0 auto;
+}
 
+input[type=submit] {
+    background-color: #27AE60;
+}
 
 
 
