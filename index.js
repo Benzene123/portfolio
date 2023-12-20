@@ -4,6 +4,7 @@ const sectBtn = document.querySelectorAll(".control");
 const allSections = document.querySelector(".main-content");
 const hover = document.querySelectorAll(".hover-item");
 const portfolio = document.querySelectorAll(".portfolioitem");
+const submitBtn = document.querySelector(".submit-btn")
 
 
 function pageTransition() {
@@ -33,3 +34,8 @@ function pageTransition() {
 
 pageTransition(); 
 
+submitBtn.addEventListener("click", (e) => {
+
+  e.preventDefault()
+
+})
